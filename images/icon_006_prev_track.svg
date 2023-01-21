@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="prevtrack" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408.46 1566.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #2e9479;
+      }
+    </style>
+  </defs>
+  <path id="trackprevious" class="cls-2" d="m1408.46,0v1566.47L454.36,925.58v-334.86L1408.46,0ZM327.67,1485.33V55.39c0-9.94-8.06-18-18-18H18C8.06,37.39,0,45.45,0,55.39v1429.94c0,9.94,8.06,18,18,18h291.67c9.94,0,18-8.06,18-18Z"/>
+  <polygon id="trackpreviousmiddle2" class="cls-1" points="846.52 737.78 846.52 816.84 1071.78 968.16 1071.78 598.31 846.52 737.78"/>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="nexttrack" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408.46 1566.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #2e9479;
+      }
+    </style>
+  </defs>
+  <path id="tracknext" class="cls-2" d="m0,1566.47V0l954.1,640.89v334.86L0,1566.47ZM1080.79,81.14v1429.94c0,9.94,8.06,18,18,18h291.67c9.94,0,18-8.06,18-18V81.14c0-9.94-8.06-18-18-18h-291.67c-9.94,0-18,8.06-18,18Z"/>
+  <polygon id="tracknextmiddle" class="cls-1" points="561.94 828.69 561.94 749.63 336.68 598.31 336.68 968.16 561.94 828.69"/>
+</svg>
