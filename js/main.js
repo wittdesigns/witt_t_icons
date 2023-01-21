@@ -11,20 +11,19 @@ the document is the DOM - the web page and all of its elements
  */
 
 //step 1 - make the connection to the elements you want to interact with
-const jpgGraphic = document.querySelector("#bitmap");
-const vectorGraphic = document.querySelector("#vector");
+//const jpgGraphic = document.querySelector("#bitmap");
+const vectorGraphic = document.querySelector("#newlogo");
 //here calls the elements, selectors
 
 
 //here defines the function
-function logID(){
+function logthisID(){
     console.log('clicked in this element', this.id);
 }
 
 
 //step 2 - decide how you want the user to interact with the object you created in step 1
-jpgGraphic.addEventListener('click', logID);
-vectorGraphic.addEventListener('click', logID);
+vectorGraphic.addEventListener('click', logthisID);
 //here its the items calling the function to be applied
 
 
