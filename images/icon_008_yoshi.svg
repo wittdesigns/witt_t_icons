@@ -59,6 +59,52 @@
         fill: #e6e7e8;
       }
     </style>
+
+
+
+
+  <script>
+      console.log('JavaScript is runing!');
+
+  //for shorter coment note
+  /* longer js coment
+  - const is atype of variable - a bit of memory that can hold a value 
+
+  JS Uses (can use) ANY valid selector to make a connection to ANY element on the page - it works the same way as CSS, ]
+  selectors do, because its USING css selectors to find matching element(s).
+
+  the document is the DOM - the web page and all of its elements 
+  */
+
+  //step 1 - make the connection to the elements you want to interact with
+  //const jpgGraphic = document.querySelector("#bitmap");
+
+  const icon008 = document.querySelector("#icon_008_yoshi");
+
+  //here calls the elements, selectors
+
+
+  //here defines the function
+  function logthisID(){
+      console.log('clicked in this element', this.id);
+  }
+
+
+  //step 2 - decide how you want the user to interact with the object you created in step 1
+
+  icon008.addEventListener('click', logthisID);
+
+  //here its the items calling the function to be applied
+
+
+  </script>
+
+
+
+
+
+
+
     <radialGradient id="radial-gradient" cx="704.23" cy="683.66" fx="704.23" fy="683.66" r="482.97" gradientUnits="userSpaceOnUse">
       <stop offset=".03" stop-color="#d9f1fd"/>
       <stop offset=".18" stop-color="#fff"/>
@@ -104,4 +150,6 @@
   <ellipse id="nose" class="yoshi4" cx="698.01" cy="1130.88" rx="447.38" ry="427.83"/>
   <path class="yoshi3" d="m676.33,867.43s-40.66-52.37-79.69-50.74"/>
   <path class="yoshi3" d="m711.46,867.43s14.64-37.16,71.89-50.78"/>
+
+
 </svg>
