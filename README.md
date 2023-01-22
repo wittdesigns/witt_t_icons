@@ -1,7 +1,9 @@
 # Project Name
 SVG Icon Martetplace Project
 
-TODO: Creation of a marketplace project to show SVG icons.
+Creation of a marketplace project to show SVG icons.
+Included animations in a few of the icons that show some possibilities, spining disc with text and  pulsing glow effects
+
 
 
 
@@ -14,12 +16,12 @@ TODO: Creation of a marketplace project to show SVG icons.
 
 ## History
 
-TODO: Write history
+After some classes IO`ve spend some time researching other possiblities about what can be done using CSS and SVG vectors, the possibilities huge.
 
 ## Credits
 
-TODO: Tiago Witt
+Tiago Witt
 
 ## License
 
-TODO: MIT
+MIT
