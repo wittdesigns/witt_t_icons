@@ -25,10 +25,10 @@ body {
     text-align: center;
 }
 .wrapper {
-    width: 30%;
+    width: 20%;
     display: inline-block;
 
-    padding: 1em;
+    padding: 2em;
 }
 
 .wrapper img {
@@ -37,6 +37,14 @@ body {
 
 }
 
+
+
+
+
+
+
+
+/* SVG ANIMATIONS START HERE */
 
     
     
@@ -51,6 +59,25 @@ body {
             0% { transform: rotate(0deg);}
             100% { transform: rotate(360deg); }
      }
+
+
+    
+     #classicmusicmixertext {
+        animation: disktext 0.8s infinite linear;
+        transform-origin: 50% 50%;
+         display: inline-block;
+         fill: white;
+               
+      }
+        
+         @keyframes disktext {
+                0% { transform: rotate(0deg);}
+                100% { transform: rotate(360deg); }
+         }
+
+
+
+
 
 
 
@@ -72,23 +99,43 @@ body {
 
 
 
- #yellowglo {         
-     animation-name: diskglow;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
+
+
+/* SVG RADIO ANIMATIONS START HERE */
           
-     @keyframes diskglow {
-         0% {
-              filter: drop-shadow(0px 0px 1px #fff)
-              drop-shadow(0px 0px 3px #fff)
-              drop-shadow(0px 0px 10px #ffb380)
-              drop-shadow(0px 0px 30px #d0ff4d)
-              drop-shadow(0px 0px 50px #fffb00);
-            }
+ .radioglow1 {         
+    animation-name: radioglow;
+   animation-duration: 0.8s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+         
+    @keyframes radioglow {
+        0% {
+             filter: drop-shadow(0px 0px 1px #fff)
+             drop-shadow(0px 0px 3px #fff)
+             drop-shadow(0px 0px 10px #adf9fc)
+             drop-shadow(0px 0px 15px #097bfd)
+             drop-shadow(0px 0px 30px #00ffff);
+           }
+         
+
+         }
           
 
-          }
-          
-    
+
+
+
+/* SVG VOLUME ANIMATIONS START HERE */
+
+.volume1{
+            animation: tvol 30s infinite linear;
+            transform-origin: 50% 50%;
+            display: inline-block;
+                  
+        }
+           
+        @keyframes tvol {
+         0% { transform: rotate(0deg);}
+        100% { transform: rotate(360deg); }
+}
